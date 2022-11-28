@@ -1,7 +1,7 @@
 <?php
 /**
- * Plugin Name:       Hello
- * Description:       Example block written with ESNext standard and JSX support – build step required.
+ * Plugin Name:       Email Fade
+ * Description:       My fading email address plugin
  * Requires at least: 5.8
  * Requires PHP:      7.0
  * Version:           0.1.0
@@ -20,7 +20,7 @@
  *
  * @see https://developer.wordpress.org/reference/functions/register_block_type/
  */
-function create_block_hello_block_init() {
+function create_block_email_fade_block_init() {
 	register_block_type( __DIR__ . '/build' );
 }
-add_action( 'init', 'create_block_hello_block_init' );
+add_action( 'init', 'create_block_email_fade_block_init' );
