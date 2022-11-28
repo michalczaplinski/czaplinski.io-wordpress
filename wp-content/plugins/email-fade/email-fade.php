@@ -8,9 +8,9 @@
  * Author:            The WordPress Contributors
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain:       hello
+ * Text Domain:       email-fade
  *
- * @package           create-block
+ * @package           email-fade
  */
 
 /**
